@@ -1,0 +1,22 @@
+//
+//  IUME.pch
+//  IUME
+//
+//  Created by Crystal on 15/10/30.
+//  Copyright © 2015年 UME. All rights reserved.
+//
+
+#ifndef IUME_pch
+#define IUME_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "KeyConfig.h"
+#import "Macro.h"
+#import "FrameConfig.h"
+#import "ColorConfig.h"
+
+#import "Utils.h"
+#import "AFNHttpRequest.h"
+#import "SingleInstance.h"
+#endif /* IUME_pch */
