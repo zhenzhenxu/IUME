@@ -16,36 +16,6 @@
 		BA69CF801BE3050E00C4B33B /* IUMEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CF7F1BE3050E00C4B33B /* IUMEUITests.m */; };
 		BA69CFE81BE3063100C4B33B /* basic_code_table.json in Resources */ = {isa = PBXBuildFile; fileRef = BA69CF971BE3063000C4B33B /* basic_code_table.json */; settings = {ASSET_TAGS = (); }; };
 		BA69CFE91BE3063100C4B33B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CFA01BE3063000C4B33B /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		BA69CFEA1BE3063100C4B33B /* 横线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA31BE3063000C4B33B /* 横线@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFEB1BE3063100C4B33B /* 横线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA41BE3063000C4B33B /* 横线@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFEC1BE3063100C4B33B /* 横线@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA51BE3063000C4B33B /* 横线@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFED1BE3063100C4B33B /* 注册框-点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA61BE3063000C4B33B /* 注册框-点击@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFEE1BE3063100C4B33B /* 注册框-点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA71BE3063000C4B33B /* 注册框-点击@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFEF1BE3063100C4B33B /* 注册框-点击@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA81BE3063000C4B33B /* 注册框-点击@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF01BE3063100C4B33B /* 注册框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFA91BE3063000C4B33B /* 注册框@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF11BE3063100C4B33B /* 注册框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAA1BE3063000C4B33B /* 注册框@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF21BE3063100C4B33B /* 注册框@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAB1BE3063000C4B33B /* 注册框@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF31BE3063100C4B33B /* 登录按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAC1BE3063000C4B33B /* 登录按钮@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF41BE3063100C4B33B /* 登录按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAD1BE3063000C4B33B /* 登录按钮@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF51BE3063100C4B33B /* 登录按钮@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAE1BE3063000C4B33B /* 登录按钮@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF61BE3063100C4B33B /* 输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFAF1BE3063000C4B33B /* 输入框@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF71BE3063100C4B33B /* 输入框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB01BE3063000C4B33B /* 输入框@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF81BE3063100C4B33B /* 输入框@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB11BE3063000C4B33B /* 输入框@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFF91BE3063100C4B33B /* 不可见@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB31BE3063000C4B33B /* 不可见@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFA1BE3063100C4B33B /* 不可见@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB41BE3063000C4B33B /* 不可见@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFB1BE3063100C4B33B /* 不可见@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB51BE3063000C4B33B /* 不可见@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFC1BE3063100C4B33B /* 可见@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB61BE3063000C4B33B /* 可见@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFD1BE3063100C4B33B /* 可见@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB71BE3063000C4B33B /* 可见@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFE1BE3063100C4B33B /* 可见@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB81BE3063000C4B33B /* 可见@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69CFFF1BE3063100C4B33B /* 正确@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFB91BE3063000C4B33B /* 正确@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0001BE3063100C4B33B /* 正确@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBA1BE3063000C4B33B /* 正确@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0011BE3063100C4B33B /* 正确@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBB1BE3063000C4B33B /* 正确@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0021BE3063100C4B33B /* 错误@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBC1BE3063000C4B33B /* 错误@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0031BE3063100C4B33B /* 错误@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBD1BE3063000C4B33B /* 错误@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0041BE3063100C4B33B /* 错误@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBE1BE3063000C4B33B /* 错误@75%.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0051BE3063100C4B33B /* 验证分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFBF1BE3063000C4B33B /* 验证分割线@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0061BE3063100C4B33B /* 验证分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFC01BE3063100C4B33B /* 验证分割线@3x.png */; settings = {ASSET_TAGS = (); }; };
-		BA69D0071BE3063100C4B33B /* 验证分割线@75%.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69CFC11BE3063100C4B33B /* 验证分割线@75%.png */; settings = {ASSET_TAGS = (); }; };
 		BA69D0081BE3063100C4B33B /* AFNHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CFCE1BE3063100C4B33B /* AFNHttpRequest.m */; settings = {ASSET_TAGS = (); }; };
 		BA69D0091BE3063100C4B33B /* AppStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CFD01BE3063100C4B33B /* AppStartView.m */; settings = {ASSET_TAGS = (); }; };
 		BA69D00A1BE3063100C4B33B /* CategorySysClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CFD21BE3063100C4B33B /* CategorySysClass.m */; settings = {ASSET_TAGS = (); }; };
@@ -144,6 +114,18 @@
 		BA69D1C61BE31E1500C4B33B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D1B91BE31E1500C4B33B /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		BA69D1C71BE31E1500C4B33B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D1BB1BE31E1500C4B33B /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		BA69D1C81BE31E1500C4B33B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D1BE1BE31E1500C4B33B /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		BA69D1CB1BE3456100C4B33B /* UMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D1CA1BE3456100C4B33B /* UMLoginView.m */; settings = {ASSET_TAGS = (); }; };
+		BA69D1CD1BE3457600C4B33B /* UMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA69D1CC1BE3457600C4B33B /* UMLoginView.xib */; settings = {ASSET_TAGS = (); }; };
+		BA69D2371BE3612E00C4B33B /* Login_input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2281BE3612E00C4B33B /* Login_input@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2381BE3612E00C4B33B /* Login_input@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2291BE3612E00C4B33B /* Login_input@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D23A1BE3612E00C4B33B /* Login_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D22B1BE3612E00C4B33B /* Login_line@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D23B1BE3612E00C4B33B /* Login_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D22C1BE3612E00C4B33B /* Login_line@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D23D1BE3612E00C4B33B /* login_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D22E1BE3612E00C4B33B /* login_login@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D23E1BE3612E00C4B33B /* login_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D22F1BE3612E00C4B33B /* login_login@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2401BE3612E00C4B33B /* Login_regest_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2311BE3612E00C4B33B /* Login_regest_nomal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2411BE3612E00C4B33B /* Login_regest_nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2321BE3612E00C4B33B /* Login_regest_nomal@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2431BE3612E00C4B33B /* Login_regest_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2341BE3612E00C4B33B /* Login_regest_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2441BE3612E00C4B33B /* Login_regest_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2351BE3612E00C4B33B /* Login_regest_selected@3x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,36 +169,6 @@
 		BA69CF9D1BE3063000C4B33B /* SingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleInstance.h; sourceTree = "<group>"; };
 		BA69CF9F1BE3063000C4B33B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA69CFA01BE3063000C4B33B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA69CFA31BE3063000C4B33B /* 横线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横线@2x.png"; sourceTree = "<group>"; };
-		BA69CFA41BE3063000C4B33B /* 横线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横线@3x.png"; sourceTree = "<group>"; };
-		BA69CFA51BE3063000C4B33B /* 横线@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横线@75%.png"; sourceTree = "<group>"; };
-		BA69CFA61BE3063000C4B33B /* 注册框-点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框-点击@2x.png"; sourceTree = "<group>"; };
-		BA69CFA71BE3063000C4B33B /* 注册框-点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框-点击@3x.png"; sourceTree = "<group>"; };
-		BA69CFA81BE3063000C4B33B /* 注册框-点击@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框-点击@75%.png"; sourceTree = "<group>"; };
-		BA69CFA91BE3063000C4B33B /* 注册框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框@2x.png"; sourceTree = "<group>"; };
-		BA69CFAA1BE3063000C4B33B /* 注册框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框@3x.png"; sourceTree = "<group>"; };
-		BA69CFAB1BE3063000C4B33B /* 注册框@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册框@75%.png"; sourceTree = "<group>"; };
-		BA69CFAC1BE3063000C4B33B /* 登录按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录按钮@2x.png"; sourceTree = "<group>"; };
-		BA69CFAD1BE3063000C4B33B /* 登录按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录按钮@3x.png"; sourceTree = "<group>"; };
-		BA69CFAE1BE3063000C4B33B /* 登录按钮@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录按钮@75%.png"; sourceTree = "<group>"; };
-		BA69CFAF1BE3063000C4B33B /* 输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框@2x.png"; sourceTree = "<group>"; };
-		BA69CFB01BE3063000C4B33B /* 输入框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框@3x.png"; sourceTree = "<group>"; };
-		BA69CFB11BE3063000C4B33B /* 输入框@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框@75%.png"; sourceTree = "<group>"; };
-		BA69CFB31BE3063000C4B33B /* 不可见@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不可见@2x.png"; sourceTree = "<group>"; };
-		BA69CFB41BE3063000C4B33B /* 不可见@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不可见@3x.png"; sourceTree = "<group>"; };
-		BA69CFB51BE3063000C4B33B /* 不可见@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不可见@75%.png"; sourceTree = "<group>"; };
-		BA69CFB61BE3063000C4B33B /* 可见@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可见@2x.png"; sourceTree = "<group>"; };
-		BA69CFB71BE3063000C4B33B /* 可见@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可见@3x.png"; sourceTree = "<group>"; };
-		BA69CFB81BE3063000C4B33B /* 可见@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可见@75%.png"; sourceTree = "<group>"; };
-		BA69CFB91BE3063000C4B33B /* 正确@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确@2x.png"; sourceTree = "<group>"; };
-		BA69CFBA1BE3063000C4B33B /* 正确@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确@3x.png"; sourceTree = "<group>"; };
-		BA69CFBB1BE3063000C4B33B /* 正确@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确@75%.png"; sourceTree = "<group>"; };
-		BA69CFBC1BE3063000C4B33B /* 错误@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误@2x.png"; sourceTree = "<group>"; };
-		BA69CFBD1BE3063000C4B33B /* 错误@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误@3x.png"; sourceTree = "<group>"; };
-		BA69CFBE1BE3063000C4B33B /* 错误@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误@75%.png"; sourceTree = "<group>"; };
-		BA69CFBF1BE3063000C4B33B /* 验证分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证分割线@2x.png"; sourceTree = "<group>"; };
-		BA69CFC01BE3063100C4B33B /* 验证分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证分割线@3x.png"; sourceTree = "<group>"; };
-		BA69CFC11BE3063100C4B33B /* 验证分割线@75%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证分割线@75%.png"; sourceTree = "<group>"; };
 		BA69CFCD1BE3063100C4B33B /* AFNHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNHttpRequest.h; sourceTree = "<group>"; };
 		BA69CFCE1BE3063100C4B33B /* AFNHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNHttpRequest.m; sourceTree = "<group>"; };
 		BA69CFCF1BE3063100C4B33B /* AppStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStartView.h; sourceTree = "<group>"; };
@@ -423,6 +375,19 @@
 		BA69D1BC1BE31E1500C4B33B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		BA69D1BD1BE31E1500C4B33B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		BA69D1BE1BE31E1500C4B33B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BA69D1C91BE3456100C4B33B /* UMLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLoginView.h; sourceTree = "<group>"; };
+		BA69D1CA1BE3456100C4B33B /* UMLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLoginView.m; sourceTree = "<group>"; };
+		BA69D1CC1BE3457600C4B33B /* UMLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMLoginView.xib; sourceTree = "<group>"; };
+		BA69D2281BE3612E00C4B33B /* Login_input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_input@2x.png"; sourceTree = "<group>"; };
+		BA69D2291BE3612E00C4B33B /* Login_input@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_input@3x.png"; sourceTree = "<group>"; };
+		BA69D22B1BE3612E00C4B33B /* Login_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_line@2x.png"; sourceTree = "<group>"; };
+		BA69D22C1BE3612E00C4B33B /* Login_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_line@3x.png"; sourceTree = "<group>"; };
+		BA69D22E1BE3612E00C4B33B /* login_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_login@2x.png"; sourceTree = "<group>"; };
+		BA69D22F1BE3612E00C4B33B /* login_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_login@3x.png"; sourceTree = "<group>"; };
+		BA69D2311BE3612E00C4B33B /* Login_regest_nomal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_nomal@2x.png"; sourceTree = "<group>"; };
+		BA69D2321BE3612E00C4B33B /* Login_regest_nomal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_nomal@3x.png"; sourceTree = "<group>"; };
+		BA69D2341BE3612E00C4B33B /* Login_regest_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_selected@2x.png"; sourceTree = "<group>"; };
+		BA69D2351BE3612E00C4B33B /* Login_regest_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_selected@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -455,11 +420,11 @@
 			children = (
 				BA69CF8D1BE3063000C4B33B /* Classes */,
 				BA69CF961BE3063000C4B33B /* Config */,
-				BA69CF9E1BE3063000C4B33B /* Other */,
 				BA69CFA11BE3063000C4B33B /* Sources */,
 				BA69CFC21BE3063100C4B33B /* ThirdLib */,
 				BA69CFCC1BE3063100C4B33B /* Utils */,
 				BA69CF591BE3050E00C4B33B /* IUME */,
+				BA69CF9E1BE3063000C4B33B /* Other */,
 				BA69CF731BE3050E00C4B33B /* IUMETests */,
 				BA69CF7E1BE3050E00C4B33B /* IUMEUITests */,
 				BA69CF581BE3050E00C4B33B /* Products */,
@@ -586,6 +551,9 @@
 		BA69CF951BE3063000C4B33B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA69D1C91BE3456100C4B33B /* UMLoginView.h */,
+				BA69D1CA1BE3456100C4B33B /* UMLoginView.m */,
+				BA69D1CC1BE3457600C4B33B /* UMLoginView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -623,55 +591,12 @@
 		BA69CFA11BE3063000C4B33B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				BA69CFA21BE3063000C4B33B /* UMLogin */,
-				BA69CFB21BE3063000C4B33B /* UMRegister */,
+				BA69D2251BE35E3D00C4B33B /* UMHome */,
+				BA69D2261BE35E3D00C4B33B /* UMLogin */,
+				BA69D2271BE35E3D00C4B33B /* UMRegister */,
 			);
 			name = Sources;
 			path = IUME/Sources;
-			sourceTree = "<group>";
-		};
-		BA69CFA21BE3063000C4B33B /* UMLogin */ = {
-			isa = PBXGroup;
-			children = (
-				BA69CFA31BE3063000C4B33B /* 横线@2x.png */,
-				BA69CFA41BE3063000C4B33B /* 横线@3x.png */,
-				BA69CFA51BE3063000C4B33B /* 横线@75%.png */,
-				BA69CFA61BE3063000C4B33B /* 注册框-点击@2x.png */,
-				BA69CFA71BE3063000C4B33B /* 注册框-点击@3x.png */,
-				BA69CFA81BE3063000C4B33B /* 注册框-点击@75%.png */,
-				BA69CFA91BE3063000C4B33B /* 注册框@2x.png */,
-				BA69CFAA1BE3063000C4B33B /* 注册框@3x.png */,
-				BA69CFAB1BE3063000C4B33B /* 注册框@75%.png */,
-				BA69CFAC1BE3063000C4B33B /* 登录按钮@2x.png */,
-				BA69CFAD1BE3063000C4B33B /* 登录按钮@3x.png */,
-				BA69CFAE1BE3063000C4B33B /* 登录按钮@75%.png */,
-				BA69CFAF1BE3063000C4B33B /* 输入框@2x.png */,
-				BA69CFB01BE3063000C4B33B /* 输入框@3x.png */,
-				BA69CFB11BE3063000C4B33B /* 输入框@75%.png */,
-			);
-			path = UMLogin;
-			sourceTree = "<group>";
-		};
-		BA69CFB21BE3063000C4B33B /* UMRegister */ = {
-			isa = PBXGroup;
-			children = (
-				BA69CFB31BE3063000C4B33B /* 不可见@2x.png */,
-				BA69CFB41BE3063000C4B33B /* 不可见@3x.png */,
-				BA69CFB51BE3063000C4B33B /* 不可见@75%.png */,
-				BA69CFB61BE3063000C4B33B /* 可见@2x.png */,
-				BA69CFB71BE3063000C4B33B /* 可见@3x.png */,
-				BA69CFB81BE3063000C4B33B /* 可见@75%.png */,
-				BA69CFB91BE3063000C4B33B /* 正确@2x.png */,
-				BA69CFBA1BE3063000C4B33B /* 正确@3x.png */,
-				BA69CFBB1BE3063000C4B33B /* 正确@75%.png */,
-				BA69CFBC1BE3063000C4B33B /* 错误@2x.png */,
-				BA69CFBD1BE3063000C4B33B /* 错误@3x.png */,
-				BA69CFBE1BE3063000C4B33B /* 错误@75%.png */,
-				BA69CFBF1BE3063000C4B33B /* 验证分割线@2x.png */,
-				BA69CFC01BE3063100C4B33B /* 验证分割线@3x.png */,
-				BA69CFC11BE3063100C4B33B /* 验证分割线@75%.png */,
-			);
-			path = UMRegister;
 			sourceTree = "<group>";
 		};
 		BA69CFC21BE3063100C4B33B /* ThirdLib */ = {
@@ -1121,6 +1046,37 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		BA69D2251BE35E3D00C4B33B /* UMHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UMHome;
+			sourceTree = "<group>";
+		};
+		BA69D2261BE35E3D00C4B33B /* UMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BA69D2281BE3612E00C4B33B /* Login_input@2x.png */,
+				BA69D2291BE3612E00C4B33B /* Login_input@3x.png */,
+				BA69D22B1BE3612E00C4B33B /* Login_line@2x.png */,
+				BA69D22C1BE3612E00C4B33B /* Login_line@3x.png */,
+				BA69D22E1BE3612E00C4B33B /* login_login@2x.png */,
+				BA69D22F1BE3612E00C4B33B /* login_login@3x.png */,
+				BA69D2311BE3612E00C4B33B /* Login_regest_nomal@2x.png */,
+				BA69D2321BE3612E00C4B33B /* Login_regest_nomal@3x.png */,
+				BA69D2341BE3612E00C4B33B /* Login_regest_selected@2x.png */,
+				BA69D2351BE3612E00C4B33B /* Login_regest_selected@3x.png */,
+			);
+			path = UMLogin;
+			sourceTree = "<group>";
+		};
+		BA69D2271BE35E3D00C4B33B /* UMRegister */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UMRegister;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1225,43 +1181,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA69CFEA1BE3063100C4B33B /* 横线@2x.png in Resources */,
-				BA69CFF31BE3063100C4B33B /* 登录按钮@2x.png in Resources */,
-				BA69D0061BE3063100C4B33B /* 验证分割线@3x.png in Resources */,
+				BA69D1CD1BE3457600C4B33B /* UMLoginView.xib in Resources */,
+				BA69D23E1BE3612E00C4B33B /* login_login@3x.png in Resources */,
 				BA69CFE81BE3063100C4B33B /* basic_code_table.json in Resources */,
-				BA69CFEC1BE3063100C4B33B /* 横线@75%.png in Resources */,
-				BA69CFF81BE3063100C4B33B /* 输入框@75%.png in Resources */,
-				BA69CFEB1BE3063100C4B33B /* 横线@3x.png in Resources */,
-				BA69D0001BE3063100C4B33B /* 正确@3x.png in Resources */,
+				BA69D2431BE3612E00C4B33B /* Login_regest_selected@2x.png in Resources */,
+				BA69D2441BE3612E00C4B33B /* Login_regest_selected@3x.png in Resources */,
 				BA69CF6A1BE3050E00C4B33B /* LaunchScreen.storyboard in Resources */,
-				BA69CFFF1BE3063100C4B33B /* 正确@2x.png in Resources */,
+				BA69D2401BE3612E00C4B33B /* Login_regest_nomal@2x.png in Resources */,
+				BA69D2371BE3612E00C4B33B /* Login_input@2x.png in Resources */,
+				BA69D2381BE3612E00C4B33B /* Login_input@3x.png in Resources */,
 				BA69D00F1BE3063100C4B33B /* SelectPickerView.xib in Resources */,
-				BA69CFEF1BE3063100C4B33B /* 注册框-点击@75%.png in Resources */,
-				BA69CFF51BE3063100C4B33B /* 登录按钮@75%.png in Resources */,
-				BA69D0011BE3063100C4B33B /* 正确@75%.png in Resources */,
-				BA69CFF11BE3063100C4B33B /* 注册框@3x.png in Resources */,
-				BA69D0051BE3063100C4B33B /* 验证分割线@2x.png in Resources */,
-				BA69CFF01BE3063100C4B33B /* 注册框@2x.png in Resources */,
-				BA69CFF61BE3063100C4B33B /* 输入框@2x.png in Resources */,
-				BA69CFFB1BE3063100C4B33B /* 不可见@75%.png in Resources */,
-				BA69CFF21BE3063100C4B33B /* 注册框@75%.png in Resources */,
-				BA69CFF71BE3063100C4B33B /* 输入框@3x.png in Resources */,
-				BA69CFFE1BE3063100C4B33B /* 可见@75%.png in Resources */,
+				BA69D2411BE3612E00C4B33B /* Login_regest_nomal@3x.png in Resources */,
+				BA69D23A1BE3612E00C4B33B /* Login_line@2x.png in Resources */,
 				BA69D1651BE3189900C4B33B /* MJRefresh.bundle in Resources */,
-				BA69D0071BE3063100C4B33B /* 验证分割线@75%.png in Resources */,
-				BA69CFEE1BE3063100C4B33B /* 注册框-点击@3x.png in Resources */,
-				BA69CFED1BE3063100C4B33B /* 注册框-点击@2x.png in Resources */,
-				BA69CFF91BE3063100C4B33B /* 不可见@2x.png in Resources */,
 				BA69D0981BE3073100C4B33B /* IQKeyboardManager.bundle in Resources */,
+				BA69D23D1BE3612E00C4B33B /* login_login@2x.png in Resources */,
 				BA69CF671BE3050E00C4B33B /* Assets.xcassets in Resources */,
-				BA69D0031BE3063100C4B33B /* 错误@3x.png in Resources */,
-				BA69CFFA1BE3063100C4B33B /* 不可见@3x.png in Resources */,
-				BA69D0041BE3063100C4B33B /* 错误@75%.png in Resources */,
-				BA69CFFC1BE3063100C4B33B /* 可见@2x.png in Resources */,
-				BA69D0021BE3063100C4B33B /* 错误@2x.png in Resources */,
-				BA69CFF41BE3063100C4B33B /* 登录按钮@3x.png in Resources */,
 				BA69CF651BE3050E00C4B33B /* Main.storyboard in Resources */,
-				BA69CFFD1BE3063100C4B33B /* 可见@3x.png in Resources */,
+				BA69D23B1BE3612E00C4B33B /* Login_line@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1339,6 +1276,7 @@
 				BA69D1241BE3188A00C4B33B /* MJPropertyType.m in Sources */,
 				BA69D00B1BE3063100C4B33B /* CodeTableManager.m in Sources */,
 				BA69D1231BE3188A00C4B33B /* MJPropertyKey.m in Sources */,
+				BA69D1CB1BE3456100C4B33B /* UMLoginView.m in Sources */,
 				BA69D0101BE3063100C4B33B /* SelectTypePickerView.m in Sources */,
 				BA69D00E1BE3063100C4B33B /* NSString+PinYin.m in Sources */,
 				BA69D02B1BE306FB00C4B33B /* AFHTTPRequestOperationManager.m in Sources */,
