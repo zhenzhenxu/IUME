@@ -29,6 +29,10 @@
     _namelbl.text = cellModel.name;
     _scorelbl.text = cellModel.spare4;
     _joblbl.text = @"UI设计师";
-    
+    NSString *timeStr =cellModel.spare5;
+    NSString *tempstr= [timeStr substringFromIndex:5];   
+    NSRange range =[tempstr rangeOfString:@"-"];
+    _statuslbl.text = [NSString stringWithFormat:@"%@/%@",[tempstr substringToIndex:range.location],[tempstr substringFromIndex:range.location+1]];
+
 }
 @end
