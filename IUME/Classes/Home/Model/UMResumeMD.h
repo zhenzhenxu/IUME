@@ -8,19 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class ResumeData;
 @interface UMResumeMD : NSObject
 
-@property (nonatomic, copy) NSString *code;
-
-@property (nonatomic, copy) NSString *message;
-
-@property (nonatomic, strong) NSArray<ResumeData *> *data;
-
-@property (nonatomic, copy) NSString *type;
-
-@end
-@interface ResumeData : NSObject
 /**
  *  工作年限
  */
@@ -101,4 +90,5 @@
 @property (nonatomic, copy) NSString *spare2;
 
 @end
+
 

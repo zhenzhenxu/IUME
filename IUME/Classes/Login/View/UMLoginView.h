@@ -10,7 +10,7 @@
 @class UMLoginView;
 @protocol loginViewDelegate <NSObject>
 
-- (void)loginViewBtnClick:(UIButton *)btn;
+- (void)loginViewBtnClick:(UIButton *)btn phoneNum:(NSString *)phoneNum password:(NSString *)password;
 
 @end
 @interface UMLoginView : UIView

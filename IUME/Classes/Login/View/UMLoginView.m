@@ -22,8 +22,8 @@
 
 - (IBAction)loginViewBtn_click:(UIButton *)sender {
     
-    if ([self.delegate respondsToSelector:@selector(loginViewBtnClick:)]) {
-        [self.delegate loginViewBtnClick:sender];
+    if ([self.delegate respondsToSelector:@selector(loginViewBtnClick:phoneNum:password:)]) {
+        [self.delegate loginViewBtnClick:sender phoneNum:self.phoneNumTextField.text password:self.passwordTextField.text];
     }
     
 }
@@ -44,7 +44,7 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     if (textField == self.phoneNumTextField) {
-        [self.phoneNumTextField becomeFirstResponder];
+        [self.passwordTextField becomeFirstResponder];
     } else if (textField == self.passwordTextField) {
         [self.passwordTextField resignFirstResponder];
     }

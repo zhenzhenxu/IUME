@@ -12,6 +12,6 @@
 #define KPhone              @"phone"
 #define KPassword           @"password"
 #define KUserID             @"userId"
-#define KresumeID           @"resumeId"
-
+#define KResumeID           @"resumeId"
+#define KPage               @"page"
 #endif

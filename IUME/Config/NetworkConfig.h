@@ -11,5 +11,5 @@
 // 接口地址
 #define kHttpIPAddress               @"http://www.umebank.com/"
 #define kInterfaceLogin              @"HrUserController/loginApp.do"    //登陆
-
+#define KInterfaceSearchApp          @"HrUserController/seachApp.do"
 #endif

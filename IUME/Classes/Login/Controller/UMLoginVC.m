@@ -9,6 +9,9 @@
 #import "UMLoginVC.h"
 #import "UMLoginView.h"
 #import "UMRegisterVC.h"
+#import "UMDownLoadResumeVC.h"
+#import "UMLoginMD.h"
+
 @interface UMLoginVC ()<loginViewDelegate>
 {
     UIScrollView *_scrollView;
@@ -47,10 +50,13 @@
     _loginView.delegate = self;
 }
 #pragma mark loginViewDelegate
-- (void)loginViewBtnClick:(UIButton *)btn{
+- (void)loginViewBtnClick:(UIButton *)btn phoneNum:(NSString *)phoneNum password:(NSString *)password{
     switch (btn.tag) {
         case 11://登录
-            [self loginToHome];
+            if (btn.selected == YES) {
+                return;
+            }
+            [self loginToHomeWithphoneNum:phoneNum password:password btn:btn];
             break;
         case 12:// 忘记密码
             
@@ -66,40 +72,27 @@
 
 }
 
-- (void)loginToHome2{
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    NSDictionary *param = @{
-                            @"phone": @"13918679645", @"password": @"111111"
-                            };
-    [manager GET:@"www.umebank.com/HrUserController/loginApp.do" parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"请求成功---%@", responseObject);
-        
-        //如果请求成功，并且成功的block有值的话，把请求成功的数据通过block返回回去
-        
-        
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-         NSLog(@"请求失败---%@",error);
-    }];
 
-}
-- (void)loginToHome{
+- (void)loginToHomeWithphoneNum:(NSString *)phoneNum password:(NSString *)password btn:(UIButton *)sender{
+    sender.selected = YES;
     NSDictionary *param = @{
-                            @"phone": @"13918679645", @"password": @"111111"
+                            KPhone: phoneNum, KPassword: password
                             };
     [AFNHttpRequest afnHttpRequestUrl:kInterfaceLogin
                                 param:param
                               success:^(id responseObject) {
-                                  
-                                  NSLog(@"请求成功---%@", responseObject);
+                                  UMDownLoadResumeVC *resumeVC = [[UMDownLoadResumeVC alloc]init];
+                                  [self.navigationController pushViewController:resumeVC animated:YES];
+                                  sender.selected = NO;
                                   
                               }
                               failure:^(NSError *error) {
-                                  NSLog(@"请求失败---%@",error);
+                                  sender.selected = NO;
+                                  [UIHelper hideHUDForView:self.parentViewController.view];
+                                  [UIHelper alertWithMsg:@"网络连接失败"];
+                                  
+                                  
                               }];
-
-
-
-
 
 }
 

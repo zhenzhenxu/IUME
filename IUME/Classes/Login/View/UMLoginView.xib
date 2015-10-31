@@ -43,7 +43,7 @@
                         <constraint firstAttribute="height" constant="30" id="8dh-19-lW2"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                 </textField>
                 <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FX-VB-gNU">
                     <rect key="frame" x="9" y="310" width="582" height="44"/>
@@ -54,6 +54,7 @@
                     <state key="normal" title="登陆" backgroundImage="login_login.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" backgroundImage="login_login.png"/>
                     <connections>
                         <action selector="loginViewBtn_click:" destination="iN0-l3-epB" eventType="touchUpInside" id="BaJ-Fx-tHU"/>
                     </connections>
