@@ -66,10 +66,25 @@
 
 }
 
+- (void)loginToHome2{
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    NSDictionary *param = @{
+                            @"phone": @"13918679645", @"password": @"111111"
+                            };
+    [manager GET:@"www.umebank.com/HrUserController/loginApp.do" parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"请求成功---%@", responseObject);
+        
+        //如果请求成功，并且成功的block有值的话，把请求成功的数据通过block返回回去
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+         NSLog(@"请求失败---%@",error);
+    }];
 
+}
 - (void)loginToHome{
     NSDictionary *param = @{
-                            @"phone": @"15655248882", @"password": @"123456"
+                            @"phone": @"13918679645", @"password": @"111111"
                             };
     [AFNHttpRequest afnHttpRequestUrl:kInterfaceLogin
                                 param:param
@@ -79,7 +94,7 @@
                                   
                               }
                               failure:^(NSError *error) {
-                                 
+                                  NSLog(@"请求失败---%@",error);
                               }];
 
 

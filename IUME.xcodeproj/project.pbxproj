@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F90D4CA1BE4672100A27E46 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F90D4C91BE4672100A27E46 /* NSArray+Log.m */; settings = {ASSET_TAGS = (); }; };
 		6FD32E951BE3C5D500819A11 /* UMRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD32E941BE3C5D500819A11 /* UMRegisterView.m */; settings = {ASSET_TAGS = (); }; };
 		6FD32E971BE3C5F000819A11 /* UMRegisterVew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD32E961BE3C5F000819A11 /* UMRegisterVew.xib */; settings = {ASSET_TAGS = (); }; };
 		6FF61FA91BE3A4CA00E534D1 /* UMRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF61FA81BE3A4CA00E534D1 /* UMRegisterVC.m */; settings = {ASSET_TAGS = (); }; };
@@ -160,6 +161,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F90D4C81BE4672100A27E46 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		6F90D4C91BE4672100A27E46 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		6FD32E931BE3C5D500819A11 /* UMRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRegisterView.h; sourceTree = "<group>"; };
 		6FD32E941BE3C5D500819A11 /* UMRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMRegisterView.m; sourceTree = "<group>"; };
 		6FD32E961BE3C5F000819A11 /* UMRegisterVew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMRegisterVew.xib; sourceTree = "<group>"; };
@@ -755,6 +758,8 @@
 				BA69CFE51BE3063100C4B33B /* UIView+Extend.m */,
 				BA69CFE61BE3063100C4B33B /* Utils.h */,
 				BA69CFE71BE3063100C4B33B /* Utils.m */,
+				6F90D4C81BE4672100A27E46 /* NSArray+Log.h */,
+				6F90D4C91BE4672100A27E46 /* NSArray+Log.m */,
 			);
 			name = Utils;
 			path = IUME/Utils;
@@ -1373,6 +1378,7 @@
 				BA69D0141BE3063100C4B33B /* UIView+Extend.m in Sources */,
 				BA69D0301BE306FB00C4B33B /* AFURLRequestSerialization.m in Sources */,
 				BA69D1911BE318A600C4B33B /* SDWebImageDownloader.m in Sources */,
+				6F90D4CA1BE4672100A27E46 /* NSArray+Log.m in Sources */,
 				BA69D02A1BE306FB00C4B33B /* AFHTTPRequestOperation.m in Sources */,
 				BA69D19A1BE318A600C4B33B /* UIImageView+WebCache.m in Sources */,
 				BA69D15D1BE3189900C4B33B /* MJRefreshAutoNormalFooter.m in Sources */,

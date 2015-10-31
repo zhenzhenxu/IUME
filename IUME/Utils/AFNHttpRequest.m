@@ -39,18 +39,14 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", nil];
-    
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
    
     [manager  POST:url
         parameters:param
            success:^(AFHTTPRequestOperation *operation, id responseObject) {
-               // 先转成NSDictionary
-               NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:(NSData *)responseObject
-                                                                            options:NSJSONReadingMutableContainers
-                                                                              error:nil];
-               success(responseDict);
+               
+               if (success) {
+                   success(responseObject);
+               }
            }
            failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                failure(error);
