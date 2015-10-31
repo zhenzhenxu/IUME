@@ -42,7 +42,7 @@
     
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-  
+   
     [manager  POST:url
         parameters:param
            success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -58,7 +58,6 @@
            }];
 #endif /* ifdef  TEST */
 }
-
 + (void)afnHttpRequestUrl:(NSString *)url param:(NSDictionary *)param constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block success:(void (^)(id responseObject))success failure:(void (^)(NSError *error))failure
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];

@@ -9,7 +9,7 @@
 #ifndef FangshangTourism_NetworkConfig_h
 #define FangshangTourism_NetworkConfig_h
 // 接口地址
-#define kHttpIPAddress               @"http://wsdev.abb.com.cn/EAS/"
-#define kInterfaceLogin              @"Login/Login"    //登陆
+#define kHttpIPAddress               @"http://www.umebank.com/"
+#define kInterfaceLogin              @"HrUserController/loginApp.do"    //登陆
 
 #endif

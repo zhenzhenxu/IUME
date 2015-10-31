@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FD32E951BE3C5D500819A11 /* UMRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD32E941BE3C5D500819A11 /* UMRegisterView.m */; settings = {ASSET_TAGS = (); }; };
+		6FD32E971BE3C5F000819A11 /* UMRegisterVew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD32E961BE3C5F000819A11 /* UMRegisterVew.xib */; settings = {ASSET_TAGS = (); }; };
+		6FF61FA91BE3A4CA00E534D1 /* UMRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF61FA81BE3A4CA00E534D1 /* UMRegisterVC.m */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB41BE3BA1400E534D1 /* register_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAA1BE3BA1400E534D1 /* register_error@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB51BE3BA1400E534D1 /* register_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAB1BE3BA1400E534D1 /* register_error@3x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB61BE3BA1400E534D1 /* register_look@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAC1BE3BA1400E534D1 /* register_look@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB71BE3BA1400E534D1 /* register_look@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAD1BE3BA1400E534D1 /* register_look@3x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB81BE3BA1400E534D1 /* register_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAE1BE3BA1400E534D1 /* register_success@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FB91BE3BA1400E534D1 /* register_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FAF1BE3BA1400E534D1 /* register_success@3x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FBA1BE3BA1400E534D1 /* register_unlook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FB01BE3BA1400E534D1 /* register_unlook@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FBB1BE3BA1400E534D1 /* register_unlook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FB11BE3BA1400E534D1 /* register_unlook@3x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FBC1BE3BA1400E534D1 /* register_verticalLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FB21BE3BA1400E534D1 /* register_verticalLine@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6FF61FBD1BE3BA1400E534D1 /* register_verticalLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF61FB31BE3BA1400E534D1 /* register_verticalLine@3x.png */; settings = {ASSET_TAGS = (); }; };
 		BA69CF5C1BE3050E00C4B33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CF5B1BE3050E00C4B33B /* main.m */; };
 		BA69CF621BE3050E00C4B33B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69CF611BE3050E00C4B33B /* ViewController.m */; };
 		BA69CF651BE3050E00C4B33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA69CF631BE3050E00C4B33B /* Main.storyboard */; };
@@ -126,6 +139,7 @@
 		BA69D2411BE3612E00C4B33B /* Login_regest_nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2321BE3612E00C4B33B /* Login_regest_nomal@3x.png */; settings = {ASSET_TAGS = (); }; };
 		BA69D2431BE3612E00C4B33B /* Login_regest_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2341BE3612E00C4B33B /* Login_regest_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
 		BA69D2441BE3612E00C4B33B /* Login_regest_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69D2351BE3612E00C4B33B /* Login_regest_selected@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BA69D2481BE3880500C4B33B /* UMNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69D2471BE3880500C4B33B /* UMNavgationController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +160,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FD32E931BE3C5D500819A11 /* UMRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRegisterView.h; sourceTree = "<group>"; };
+		6FD32E941BE3C5D500819A11 /* UMRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMRegisterView.m; sourceTree = "<group>"; };
+		6FD32E961BE3C5F000819A11 /* UMRegisterVew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMRegisterVew.xib; sourceTree = "<group>"; };
+		6FF61FA71BE3A4CA00E534D1 /* UMRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRegisterVC.h; sourceTree = "<group>"; };
+		6FF61FA81BE3A4CA00E534D1 /* UMRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMRegisterVC.m; sourceTree = "<group>"; };
+		6FF61FAA1BE3BA1400E534D1 /* register_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_error@2x.png"; sourceTree = "<group>"; };
+		6FF61FAB1BE3BA1400E534D1 /* register_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_error@3x.png"; sourceTree = "<group>"; };
+		6FF61FAC1BE3BA1400E534D1 /* register_look@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_look@2x.png"; sourceTree = "<group>"; };
+		6FF61FAD1BE3BA1400E534D1 /* register_look@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_look@3x.png"; sourceTree = "<group>"; };
+		6FF61FAE1BE3BA1400E534D1 /* register_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_success@2x.png"; sourceTree = "<group>"; };
+		6FF61FAF1BE3BA1400E534D1 /* register_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_success@3x.png"; sourceTree = "<group>"; };
+		6FF61FB01BE3BA1400E534D1 /* register_unlook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_unlook@2x.png"; sourceTree = "<group>"; };
+		6FF61FB11BE3BA1400E534D1 /* register_unlook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_unlook@3x.png"; sourceTree = "<group>"; };
+		6FF61FB21BE3BA1400E534D1 /* register_verticalLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_verticalLine@2x.png"; sourceTree = "<group>"; };
+		6FF61FB31BE3BA1400E534D1 /* register_verticalLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register_verticalLine@3x.png"; sourceTree = "<group>"; };
 		BA69CF571BE3050E00C4B33B /* IUME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IUME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA69CF5B1BE3050E00C4B33B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA69CF601BE3050E00C4B33B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -388,6 +417,8 @@
 		BA69D2321BE3612E00C4B33B /* Login_regest_nomal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_nomal@3x.png"; sourceTree = "<group>"; };
 		BA69D2341BE3612E00C4B33B /* Login_regest_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_selected@2x.png"; sourceTree = "<group>"; };
 		BA69D2351BE3612E00C4B33B /* Login_regest_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_regest_selected@3x.png"; sourceTree = "<group>"; };
+		BA69D2461BE3880500C4B33B /* UMNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMNavgationController.h; sourceTree = "<group>"; };
+		BA69D2471BE3880500C4B33B /* UMNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMNavgationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -537,6 +568,8 @@
 			children = (
 				BA69D1A21BE31DE200C4B33B /* UMLoginVC.h */,
 				BA69D1A31BE31DE200C4B33B /* UMLoginVC.m */,
+				6FF61FA71BE3A4CA00E534D1 /* UMRegisterVC.h */,
+				6FF61FA81BE3A4CA00E534D1 /* UMRegisterVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -554,6 +587,9 @@
 				BA69D1C91BE3456100C4B33B /* UMLoginView.h */,
 				BA69D1CA1BE3456100C4B33B /* UMLoginView.m */,
 				BA69D1CC1BE3457600C4B33B /* UMLoginView.xib */,
+				6FD32E931BE3C5D500819A11 /* UMRegisterView.h */,
+				6FD32E941BE3C5D500819A11 /* UMRegisterView.m */,
+				6FD32E961BE3C5F000819A11 /* UMRegisterVew.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -583,6 +619,8 @@
 				BA69D19D1BE31D6C00C4B33B /* BaseTableViewController.m */,
 				BA69D19E1BE31D6C00C4B33B /* BaseViewController.h */,
 				BA69D19F1BE31D6C00C4B33B /* BaseViewController.m */,
+				BA69D2461BE3880500C4B33B /* UMNavgationController.h */,
+				BA69D2471BE3880500C4B33B /* UMNavgationController.m */,
 			);
 			name = Other;
 			path = IUME/Other;
@@ -1073,6 +1111,16 @@
 		BA69D2271BE35E3D00C4B33B /* UMRegister */ = {
 			isa = PBXGroup;
 			children = (
+				6FF61FAA1BE3BA1400E534D1 /* register_error@2x.png */,
+				6FF61FAB1BE3BA1400E534D1 /* register_error@3x.png */,
+				6FF61FAC1BE3BA1400E534D1 /* register_look@2x.png */,
+				6FF61FAD1BE3BA1400E534D1 /* register_look@3x.png */,
+				6FF61FAE1BE3BA1400E534D1 /* register_success@2x.png */,
+				6FF61FAF1BE3BA1400E534D1 /* register_success@3x.png */,
+				6FF61FB01BE3BA1400E534D1 /* register_unlook@2x.png */,
+				6FF61FB11BE3BA1400E534D1 /* register_unlook@3x.png */,
+				6FF61FB21BE3BA1400E534D1 /* register_verticalLine@2x.png */,
+				6FF61FB31BE3BA1400E534D1 /* register_verticalLine@3x.png */,
 			);
 			path = UMRegister;
 			sourceTree = "<group>";
@@ -1188,16 +1236,27 @@
 				BA69D2441BE3612E00C4B33B /* Login_regest_selected@3x.png in Resources */,
 				BA69CF6A1BE3050E00C4B33B /* LaunchScreen.storyboard in Resources */,
 				BA69D2401BE3612E00C4B33B /* Login_regest_nomal@2x.png in Resources */,
+				6FF61FB71BE3BA1400E534D1 /* register_look@3x.png in Resources */,
+				6FF61FB41BE3BA1400E534D1 /* register_error@2x.png in Resources */,
+				6FD32E971BE3C5F000819A11 /* UMRegisterVew.xib in Resources */,
 				BA69D2371BE3612E00C4B33B /* Login_input@2x.png in Resources */,
+				6FF61FB91BE3BA1400E534D1 /* register_success@3x.png in Resources */,
+				6FF61FB51BE3BA1400E534D1 /* register_error@3x.png in Resources */,
+				6FF61FBA1BE3BA1400E534D1 /* register_unlook@2x.png in Resources */,
 				BA69D2381BE3612E00C4B33B /* Login_input@3x.png in Resources */,
 				BA69D00F1BE3063100C4B33B /* SelectPickerView.xib in Resources */,
 				BA69D2411BE3612E00C4B33B /* Login_regest_nomal@3x.png in Resources */,
+				6FF61FBC1BE3BA1400E534D1 /* register_verticalLine@2x.png in Resources */,
+				6FF61FBB1BE3BA1400E534D1 /* register_unlook@3x.png in Resources */,
+				6FF61FB61BE3BA1400E534D1 /* register_look@2x.png in Resources */,
 				BA69D23A1BE3612E00C4B33B /* Login_line@2x.png in Resources */,
 				BA69D1651BE3189900C4B33B /* MJRefresh.bundle in Resources */,
 				BA69D0981BE3073100C4B33B /* IQKeyboardManager.bundle in Resources */,
 				BA69D23D1BE3612E00C4B33B /* login_login@2x.png in Resources */,
 				BA69CF671BE3050E00C4B33B /* Assets.xcassets in Resources */,
+				6FF61FBD1BE3BA1400E534D1 /* register_verticalLine@3x.png in Resources */,
 				BA69CF651BE3050E00C4B33B /* Main.storyboard in Resources */,
+				6FF61FB81BE3BA1400E534D1 /* register_success@2x.png in Resources */,
 				BA69D23B1BE3612E00C4B33B /* Login_line@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1236,8 +1295,10 @@
 				BA69CF621BE3050E00C4B33B /* ViewController.m in Sources */,
 				BA69D1661BE3189900C4B33B /* MJRefreshConst.m in Sources */,
 				BA69D1C21BE31E1500C4B33B /* MASLayoutConstraint.m in Sources */,
+				6FF61FA91BE3A4CA00E534D1 /* UMRegisterVC.m in Sources */,
 				BA69D02C1BE306FB00C4B33B /* AFHTTPSessionManager.m in Sources */,
 				BA69D18F1BE318A600C4B33B /* SDWebImageCompat.m in Sources */,
+				BA69D2481BE3880500C4B33B /* UMNavgationController.m in Sources */,
 				BA69D1C41BE31E1500C4B33B /* MASViewConstraint.m in Sources */,
 				BA69D15E1BE3189900C4B33B /* MJRefreshAutoStateFooter.m in Sources */,
 				BA69D1631BE3189900C4B33B /* MJRefreshNormalHeader.m in Sources */,
@@ -1260,6 +1321,7 @@
 				BA69D1C71BE31E1500C4B33B /* View+MASAdditions.m in Sources */,
 				BA69D0901BE3073100C4B33B /* IQKeyboardManager.m in Sources */,
 				BA69D0911BE3073100C4B33B /* IQKeyboardReturnKeyHandler.m in Sources */,
+				6FD32E951BE3C5D500819A11 /* UMRegisterView.m in Sources */,
 				BA69D0151BE3063100C4B33B /* Utils.m in Sources */,
 				BA69D1201BE3188A00C4B33B /* MJExtensionConst.m in Sources */,
 				BA69D1A11BE31D6C00C4B33B /* BaseViewController.m in Sources */,

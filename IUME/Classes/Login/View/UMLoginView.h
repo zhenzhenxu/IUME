@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class UMLoginView;
+@protocol loginViewDelegate <NSObject>
 
+- (void)loginViewBtnClick:(UIButton *)btn;
+
+@end
 @interface UMLoginView : UIView
+@property (nonatomic, weak) id<loginViewDelegate> delegate;
 
 @end

@@ -20,6 +20,6 @@
 ///navigationBar
 #define kOrangeBarTintColor   [UIColor colorWithHex:0xe95412]
 #define kGrayBarTintColor     [UIColor colorWithHex:0xedeeef]
-#define KBlueBarTintColor     [UIColor colorWithHexString:@"#ffffff"]
+#define KBlueBarTintColor     RGB(27,211,195)
 
 #endif

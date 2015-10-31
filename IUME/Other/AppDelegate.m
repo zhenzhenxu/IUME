@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "UMLoginVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    //   设置程序启动时的根控制器
+    [self setUpLoginVC];
     return YES;
 }
+
+#pragma mark -私有方法
+- (void)setUpLoginVC
+{
+    UMLoginVC *loginVC = [[UMLoginVC alloc]init];
+    UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:loginVC];
+    self.window.rootViewController = nav;
+    
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

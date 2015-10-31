@@ -26,13 +26,13 @@
     self.navigationController.navigationBarHidden = NO;
     self.navigationController.navigationBar.barTintColor = KBlueBarTintColor;
 
-    [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:20], NSFontAttributeName, nil]];
+    [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:20], NSFontAttributeName, nil]];
 
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"btn_circle_normal"] style:UIBarButtonItemStylePlain target:self action:@selector(backEvent:)];
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"btn_circle_normal"] style:UIBarButtonItemStylePlain target:self action:@selector(backEvent:)];
 //    [self.navigationItem.leftBarButtonItem setTintColor:[UIColor whiteColor]];
 //    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"返回按钮-默认状态" hltImage:@"返回按钮-交互状态" target:self action:@selector(backEvent:) title:nil];
 
-    self.view.backgroundColor = [UIColor colorWithHexString:@"#edeeef"];
+    self.view.backgroundColor = [UIColor colorWithHexString:@"#ededed"];
 
     if (IsIOS7) {
         self.edgesForExtendedLayout                         = UIRectEdgeNone;
