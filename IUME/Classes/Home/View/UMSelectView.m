@@ -12,10 +12,5 @@
 
 @end
 @implementation UMSelectView
- 
-    
-
-
-
 
 @end

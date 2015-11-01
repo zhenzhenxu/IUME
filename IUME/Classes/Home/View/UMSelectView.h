@@ -7,12 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef NS_ENUM(NSInteger, UMSelectButtonType) {
-    GZJYBtn = 13,
-    XLbTN,
-    QWXZBtn
-};
-
 @interface UMSelectView : UIView
 
 @end

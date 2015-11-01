@@ -135,6 +135,9 @@
 		6F2313871BE5193100978DC7 /* dropdown_loading_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2313081BE5193100978DC7 /* dropdown_loading_02@2x.png */; settings = {ASSET_TAGS = (); }; };
 		6F2313881BE5193100978DC7 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F23130A1BE5193100978DC7 /* Contents.json */; settings = {ASSET_TAGS = (); }; };
 		6F2313891BE5193100978DC7 /* dropdown_loading_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F23130B1BE5193100978DC7 /* dropdown_loading_03@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6F23138D1BE65C4A00978DC7 /* NSString+UMColorString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F23138C1BE65C4A00978DC7 /* NSString+UMColorString.m */; settings = {ASSET_TAGS = (); }; };
+		6F2313921BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2313911BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.m */; settings = {ASSET_TAGS = (); }; };
+		6F2313951BE65DB100978DC7 /* UITableView+UMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2313941BE65DB100978DC7 /* UITableView+UMTableView.m */; settings = {ASSET_TAGS = (); }; };
 		6F90D4CA1BE4672100A27E46 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F90D4C91BE4672100A27E46 /* NSArray+Log.m */; settings = {ASSET_TAGS = (); }; };
 		6F90D4CD1BE4817800A27E46 /* UMResumeMD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F90D4CC1BE4817800A27E46 /* UMResumeMD.m */; settings = {ASSET_TAGS = (); }; };
 		6F90D4E11BE4857B00A27E46 /*  Home_arrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F90D4CF1BE4857B00A27E46 /*  Home_arrowDown@2x.png */; settings = {ASSET_TAGS = (); }; };
@@ -441,6 +444,12 @@
 		6F2313081BE5193100978DC7 /* dropdown_loading_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_loading_02@2x.png"; sourceTree = "<group>"; };
 		6F23130A1BE5193100978DC7 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		6F23130B1BE5193100978DC7 /* dropdown_loading_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_loading_03@2x.png"; sourceTree = "<group>"; };
+		6F23138B1BE65C4A00978DC7 /* NSString+UMColorString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UMColorString.h"; sourceTree = "<group>"; };
+		6F23138C1BE65C4A00978DC7 /* NSString+UMColorString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UMColorString.m"; sourceTree = "<group>"; };
+		6F2313901BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+UMBarButtonItem.h"; sourceTree = "<group>"; };
+		6F2313911BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+UMBarButtonItem.m"; sourceTree = "<group>"; };
+		6F2313931BE65DB100978DC7 /* UITableView+UMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UMTableView.h"; sourceTree = "<group>"; };
+		6F2313941BE65DB100978DC7 /* UITableView+UMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UMTableView.m"; sourceTree = "<group>"; };
 		6F90D4C81BE4672100A27E46 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		6F90D4C91BE4672100A27E46 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		6F90D4CB1BE4817800A27E46 /* UMResumeMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMResumeMD.h; sourceTree = "<group>"; };
@@ -1393,9 +1402,24 @@
 			path = dropdown_loading_03.imageset;
 			sourceTree = "<group>";
 		};
+		6F23138A1BE65BFD00978DC7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6F23138B1BE65C4A00978DC7 /* NSString+UMColorString.h */,
+				6F23138C1BE65C4A00978DC7 /* NSString+UMColorString.m */,
+				6F2313901BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.h */,
+				6F2313911BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.m */,
+				6F2313931BE65DB100978DC7 /* UITableView+UMTableView.h */,
+				6F2313941BE65DB100978DC7 /* UITableView+UMTableView.m */,
+			);
+			name = Category;
+			path = IUME/Category;
+			sourceTree = "<group>";
+		};
 		BA69CF4E1BE3050E00C4B33B = {
 			isa = PBXGroup;
 			children = (
+				6F23138A1BE65BFD00978DC7 /* Category */,
 				BA69CF8D1BE3063000C4B33B /* Classes */,
 				BA69CF961BE3063000C4B33B /* Config */,
 				BA69CFA11BE3063000C4B33B /* Sources */,
@@ -2450,6 +2474,7 @@
 				6FD32E951BE3C5D500819A11 /* UMRegisterView.m in Sources */,
 				BA69D0151BE3063100C4B33B /* Utils.m in Sources */,
 				BA69D1201BE3188A00C4B33B /* MJExtensionConst.m in Sources */,
+				6F2313951BE65DB100978DC7 /* UITableView+UMTableView.m in Sources */,
 				6F90D5011BE4A28500A27E46 /* UMSelectView.m in Sources */,
 				BA69D1A11BE31D6C00C4B33B /* BaseViewController.m in Sources */,
 				BA69D1981BE318A600C4B33B /* UIImage+WebP.m in Sources */,
@@ -2459,6 +2484,7 @@
 				BA69D00D1BE3063100C4B33B /* NSString+Extend.m in Sources */,
 				BA69D1571BE3189900C4B33B /* MJRefreshAutoFooter.m in Sources */,
 				BA69D1A01BE31D6C00C4B33B /* BaseTableViewController.m in Sources */,
+				6F2313921BE65D5A00978DC7 /* UIBarButtonItem+UMBarButtonItem.m in Sources */,
 				BA69D1641BE3189900C4B33B /* MJRefreshStateHeader.m in Sources */,
 				6F23124C1BE4D33E00978DC7 /* UMResumeCell.m in Sources */,
 				6F90D4CD1BE4817800A27E46 /* UMResumeMD.m in Sources */,
@@ -2494,6 +2520,7 @@
 				BA69D18C1BE318A600C4B33B /* MKAnnotationView+WebCache.m in Sources */,
 				BA69D18E1BE318A600C4B33B /* SDImageCache.m in Sources */,
 				BA69D1991BE318A600C4B33B /* UIImageView+HighlightedWebCache.m in Sources */,
+				6F23138D1BE65C4A00978DC7 /* NSString+UMColorString.m in Sources */,
 				BA69D1281BE3188A00C4B33B /* NSObject+MJProperty.m in Sources */,
 				6F90D4F91BE4925900A27E46 /* UMDownLoadResumeVC.m in Sources */,
 				BA69D08D1BE3073100C4B33B /* IQUIView+Hierarchy.m in Sources */,
@@ -2658,6 +2685,7 @@
 				INFOPLIST_FILE = IUME/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.UME.IUME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2671,6 +2699,7 @@
 				INFOPLIST_FILE = IUME/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.UME.IUME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

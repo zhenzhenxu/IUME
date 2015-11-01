@@ -12,7 +12,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *bgline1;
 @property (strong, nonatomic) IBOutlet UIImageView *bgline2;
 @property (strong, nonatomic) IBOutlet UITextField *phoneNumTextField;
-
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 
 @end

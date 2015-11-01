@@ -103,7 +103,7 @@
                             KPage:@"1"
                             };
     [AFNHttpRequest afnHttpRequestUrl:KInterfaceSearchApp param:param success:^(id responseObject) {
-        NSLog(@"%@",responseObject);
+        UMLog(@"---&&&%@",responseObject);
         [_dataArray removeAllObjects];
         _dataArray = [UMResumeMD objectArrayWithKeyValuesArray:responseObject[@"data"]];
         

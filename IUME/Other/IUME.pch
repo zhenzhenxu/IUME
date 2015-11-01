@@ -11,19 +11,15 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-#import "KeyConfig.h"
 #import "Macro.h"
-#import "FrameConfig.h"
-#import "ColorConfig.h"
-#import "NetworkConfig.h"
-
-//单例
-#import "AppDelegate.h"
-#import "SingleInstance.h"
-//工具类
-#import "Utils.h"
-#import "AFNHttpRequest.h"
-// 字典转模型
-#import "MJExtension.h"
-#import "Masonry.h"
 #endif /* IUME_pch */
+
+#ifdef DEBUG
+
+#   define UMLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#   define DLog(...)
+#   define ELog(err)
+
+#endif

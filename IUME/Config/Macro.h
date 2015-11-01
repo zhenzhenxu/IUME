@@ -28,4 +28,24 @@
 
 #define ApplicationDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
+
+#import "KeyConfig.h"
+
+#import "FrameConfig.h"
+#import "ColorConfig.h"
+#import "NetworkConfig.h"
+
+//单例
+#import "AppDelegate.h"
+#import "SingleInstance.h"
+//工具类
+#import "Utils.h"
+#import "AFNHttpRequest.h"
+// 字典转模型
+#import "MJExtension.h"
+#import "Masonry.h"
+
+#import "UIBarButtonItem+UMBarButtonItem.h"
+#import "UITableView+UMTableView.h"
+
 #endif /* ifndef FangshangTourism_Macro_h */
