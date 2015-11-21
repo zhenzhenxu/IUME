@@ -1,4 +1,4 @@
-//
+ //
 //  UMDownLoadResumeVC.m
 //  IUME
 //
@@ -30,7 +30,7 @@
     self.title = @"下载简历";
     //下啦刷新
     [self setRefreshIntableView];
-    _searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, self.view.width, 40)];
+    _searchBar =  [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, self.view.width, 40)];
     self.tableView.tableHeaderView = _searchBar;
     _searchBar.placeholder = @"请输入职位关键词";
     
