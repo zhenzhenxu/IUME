@@ -23,7 +23,7 @@
     
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:20], NSFontAttributeName, nil]];
 
-    tableView = [[UITableView alloc] initWithFrame:self.view.frame];
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, self.view.height-64)];
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
